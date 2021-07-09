@@ -23,7 +23,7 @@ class Solution:
         for i in range(n):
             j = i+1
             while j<n:
-                # calculating degrees/edges of cities/vertices
+				# calculating degrees/edges of cities/vertices
                 rank = degree[i] + degree[j]
                 # Check for two way direction
                 if (adj_matrix[i][j]):
